@@ -40,13 +40,13 @@ a{
   top:0;
   left:0;
     transform: translateZ(0);
-  background:#1B2030 url("img/salam.jpg") ;
+  background:#2a3147 url("img/salam.jpg") ;
     background-repeat: repeat-y;
   /* background-size:100%; */
     background-size: contain;
     /* background-position: center; */
     /* background-attachment:fixed; */
-  animation: grow 10s  linear 10ms infinite;
+  animation: grow 25s  linear 10ms infinite;
   transition:all 0.4s ease-in-out;
   z-index:-2
 }
@@ -92,9 +92,7 @@ a{
   height:30px;
  
 }
-.sides:hover{
-   color: black;
-} 
+
 .sides, .info{  
   width:50%
 }
@@ -124,14 +122,19 @@ a{
   50% { transform: scale(1.2) translateY(-400px)}
 }
 .content{  
-  padding:2% 40%;
+  
+  padding:5% 7%;
   text-align:justify
 }
+
+
+
+
 .btn{
   color:#333;
   border:2px solid;
   border-radius:3px;
-  text-decoration:none;
+  text-decogitration:none;
   display:inline-block;
   padding:5px 10px;
   font-weight:600
