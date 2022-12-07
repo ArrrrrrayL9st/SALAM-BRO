@@ -6,19 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="arai.css">
+    <style>
+      ul li ul li a {display:block !important;} 
+      a:hover{
+        transition: 0.4s ease-in;;
+        background-color: rgb(6, 64, 112);
+      }
+      ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
+    
+    </style>
 </head>
 <body>
     <div class="header">
         <div class="sides">
           <a href="#" class="logo">MENU</a>
+            <a href="#" class="logo">ABOUT US</a>
+            <a href="#" class="logo">MAP</a>
+            <a href="#" class="logo">SALES</a>
+            <a href="#" class="logo">DELIVERY</a>
+            
         </div>
-        <div class="sides"> <a href="#" class="menu"> </a></div>
+        <div class="sides"> <a href="https://www.kfc.kz" class="menu"> </a></div>
         <div class="info">
-        <h4><a href="#category">KEX GROUP</a></h4>
+          <a href="#" class="logo">KEX GROUP</a>
+         
           <h1>НАРОДНЫЙ БУРГЕР</h1>
           <div class="meta">
-            <a  href="https://twitter.com/nodws" target="_b" class="zheka"></a><br>
-            By<p>Zheka Fatbelly</p> on May 30, 2018
+            <a  href="https://web.telegram.org/z/#777000" target="_b" class="zheka"></a><br>
+            <p>  By Zheka Fatbelly</p> on May 30, 2018
           </div>
         </div>
       </div>
@@ -26,9 +54,6 @@
       <p> АсхатПартнёр «Лаборатории улыбок», основатель Zheka's Doner House, Salam Bro, Marmelad bar, Zheka's IceЗаработал первый миллион в 22 года
         Лучший антистресс – спортзал
         Мекебай, 29 лет От машинного бизнеса до общепита и блогингаС детства я люблю фастфуд. Все начиналось с самсы (смеется). И, как оказалось, это стало моим призванием. Сколько лет говорю себе, что отойду от этого, но это дело так затянуло, что не вижу конца.</p>
-
-        </p>
-        <p>Hello world test case git </p>
       </section>
 </body>
 </html>
