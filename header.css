@@ -12,6 +12,7 @@ a{
   position:relative;
   overflow:hidden;
   display:flex;
+  font-display: ;
   align-items: flex-start;
   align-content: flex-start;
   min-height:  65px;
