@@ -1,0 +1,241 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.btn {
+    background: #ff5441;
+    color: #fff;
+    display: inline-block;
+    padding: 18px 20px;
+    width: 240px;
+    max-width: 100%;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: .02em;
+    box-shadow: 0px 0px 38px 0px rgba(212, 66, 50, 0.8);
+    transition: color .2s, background .2s, opacity .2s;
+  }
+
+  .container {
+    padding: 0 20px;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+.section{
+    padding: 110px 0;
+}
+
+@media (max-width: 576px) {
+    .section {
+        padding: 90px 0;
+    }
+}
+
+.section-title{
+    font-size: 48px;
+    text-align: center;
+    margin: 0 auto 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 900;
+    color: rgb(226, 7, 7);
+}
+ 
+@media (max-width: 576px ) {
+    .section-title{
+        font-size: 36px;
+    }
+}
+
+.section-header{
+    margin-bottom: 90px;
+}
+
+.catalog-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-nav-wrapper{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+   border-radius: 23px;
+   overflow: hidden;
+}
+
+.catalog-nav-btn{
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    min-width: 150px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 900;
+    column: #e6e6e6;
+    border-right: 1px solid #e5e5e5 ;
+    transition: border .2s, backgroud .2s, color .2s ; 
+}
+
+.catalog-nav-btn.is-active{
+    background-color: #1f1f1f;
+    color: #fff;
+    border-color:  #1f1f1f; 
+}
+
+.catalog-nav-btn:not(.is-active):hover {
+    background: rgb(226, 7, 7);
+    color: #fff;
+    border-right-color: #ffa650 ;
+}
+
+@media (max-width: 767px) {
+    .catalog-nav{
+        width: 500px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .catalog-nav-wrapper{
+        flex-wrap: wrap;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .catalog-nav-item {
+        width: 50%;
+        flex-grow: 1;
+    }
+
+    .catalog-nav-btn{
+        min-width: 0;
+        width: 100%;
+        border-top: 1px solid #e5e5e5;
+    }
+}
+
+
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -35px;
+}
+
+.catalog-item{
+    width: calc(100% / 4);
+    margin-bottom: 90px;
+    padding: 0 35px;
+    position: relative;
+
+}
+
+.first-price{
+    text-decoration: line-through;
+}
+
+.catalog-item::before{
+    content: '' ;
+    background: #f7f7f7;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    transform: translateX(-50%);
+
+
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.product-img{
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.product-title{
+    margin: 0 0 5px;
+    font-family: Arial, Helvetica, sans-serif  ;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.product-description{
+    margin: 0;
+    color: #9f9f9f;
+}
+
+.product-content{
+    margin-bottom: 25px;
+    flex-grow: 1;
+}
+
+.product-sizes{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 30px;
+   border-radius: 21px;
+   overflow: hidden; 
+   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.05);
+  
+}
+
+.product-size {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    padding: 13px 33px;
+    border-radius: 21px;
+}
+
+.product-size.is-active{
+    color: #a2a2a2;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+.product-price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+
+}
+
+.product-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-btn{
+    box-shadow: none;
+    background: rgb(226, 7, 7);
+    width: 200px;
+    padding: 14px 20px;
+}
+
+.product-btn:hover{
+    background:  rgb(161, 5, 5);
+}
