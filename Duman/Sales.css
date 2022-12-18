@@ -131,7 +131,7 @@ img{
   }
 
 .section{
-    padding: 110px 0;
+    padding: 50px 0;
 }
 
 @media (max-width: 576px) {
@@ -148,6 +148,19 @@ img{
     font-weight: 900;
     color: rgb(226, 7, 7);
 }
+
+.section-title2{
+    border: 0;
+    background-color:#ff5441 ;
+    display: inline-block;
+    text-align: center;
+    color: #fdfdfd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    padding: 13px 33px;
+    border-radius: 21px;
+}
+
  
 @media (max-width: 576px ) {
     .section-title{
