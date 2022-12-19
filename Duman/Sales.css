@@ -1,3 +1,10 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    scroll-behavior: smooth;
+  }
 /* Header */
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
@@ -130,9 +137,9 @@ img{
     margin: 0 auto;
   }
 
-.section{
+/* .section{
     padding: 50px 0;
-}
+} */
 
 @media (max-width: 576px) {
     .section {
@@ -245,7 +252,7 @@ img{
 .catalog{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -35px;
+    /* margin: 0 -35px; */
 }
 
 .catalog-item{
@@ -352,3 +359,21 @@ img{
 .product-btn:hover{
     background:  rgb(161, 5, 5);
 }
+
+
+
+.arai{
+    color: white;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 100px;
+  }
+  
+  .araibek{
+    color: white;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 800px;
+  }
