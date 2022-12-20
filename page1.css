@@ -1,0 +1,66 @@
+.page1 {
+}
+.container1 {
+  background-image: linear-gradient(to bottom, rgb(6, 64, 112, 0.9), black),
+    url("salam.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.paragraph1 {
+  display: flex;
+  color: azure;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60vh;
+}
+.wert img {
+  border-radius: 30px;
+  height: 280px;
+  width: 360px;
+}
+.column {
+  display: flex;
+}
+.sozder {
+}
+.sozder p {
+  color: aliceblue;
+  margin: 42px 20px 0 0px;
+  font-size: 20px;
+}
+
+.sandar {
+}
+
+.sandar p {
+  color: rgb(226, 7, 7);
+  font-size: 40px;
+}
+
+
+.arai{
+  color: white;
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  left: 100px;
+}
+
+.araibek{
+  color: white;
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  left: 800px;
+}

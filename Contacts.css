@@ -1,0 +1,106 @@
+/* Contacts */
+
+.section-title3{
+    font-size: 48px;
+    text-align: center;
+    margin: 0 auto 80px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 900;
+    color: #fff;
+}
+
+.section-about {
+    background: linear-gradient(to top, #2d2c2c, #1f1f1f);
+    color: #fff;
+    position: relative;
+  }
+  
+  .section-about-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 1400px;
+  }
+  
+  .section-about-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .section-about-content {
+    width: 50%;
+    padding-left: 1000px;
+    
+  }
+  
+  .section-about-title {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  @media (max-width: 1200px) {
+    .section-about {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+  
+    .section-about-content {
+      padding-left: 50px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .section-about-img {
+      width: 100%;
+    }
+  
+    .section-about-container {
+      justify-content: center;
+    }
+    
+    .section-about-content {
+      padding-left: 0;
+      width: 500px;
+      max-width: 100%;
+    }
+  }
+
+  .section-about-text{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/* Contacts  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
